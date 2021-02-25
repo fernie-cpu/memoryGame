@@ -31,7 +31,7 @@ const Card = (props) => {
   };
 
   return (
-    <div>
+    <div className='flexCard'>
       {randomCard.map((item) => {
         return (
           <div
@@ -42,8 +42,10 @@ const Card = (props) => {
             id={item.id}
             className='card'
           >
-            <img alt={item.text} src={item.img} />
-            <p>{item.text}</p>
+            <img className='imgCard' alt={item.text} src={item.img} />
+            <div className='textCard'>
+              <p>{item.text}</p>
+            </div>
           </div>
         );
       })}

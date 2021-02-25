@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import Card from './Card';
+import Footer from './Footer';
 import './style/style.css';
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
         setScore={setScore}
         resetScore={resetScore}
       />
+      <Footer />
     </div>
   );
 };
