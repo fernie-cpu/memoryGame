@@ -4,7 +4,7 @@ import logo from './img/pepeOk.png';
 const Header = (props) => {
   return (
     <header>
-      <img alt='Pepe Emoji Memory Game' src={logo} />
+      <img alt='logo' title='Pepe Emoji Memory Game' src={logo} />
       <div>
         <h1>Pepe Emoji Memory Game</h1>
         <p>Don't click the same image more than once.</p>
