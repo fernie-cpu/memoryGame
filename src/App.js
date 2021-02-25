@@ -18,8 +18,17 @@ const App = () => {
     }
   };
 
+  const alerts = () => {
+    if (score === 23) {
+      alert('POGGERS');
+    } else {
+      alert('You Lost! Feels Bad Man!');
+    }
+  };
+
   const resetScore = () => {
     setScore(0);
+    alerts();
   };
 
   return (
